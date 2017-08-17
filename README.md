@@ -12,6 +12,8 @@ Download my repository and just extract them into ur www or htdocs folder and ru
 
 ## Bonus Files
 
+Handled errors on project and implemented clean url in htaccess file
+
 ```
 Implemented error handling in project with htaccess. different kind of errors handled through ErrorDocuments
 ```
