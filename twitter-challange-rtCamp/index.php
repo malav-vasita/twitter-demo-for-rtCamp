@@ -34,9 +34,9 @@ if (isset($_GET['action']) && !isset($_GET['logout'])) {
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 $url = "";
-define('CONSUMER_KEY', 'nhQ1zywfoWnVwrllo4ZcKEyYO'); 
-define('CONSUMER_SECRET', 'bnTCZ86yVaeYxVdjOl5zhSw150a2jYML0KJdjSPcrxQLrxd7Zl');
-define('OAUTH_CALLBACK', 'http://localhost/rtCamp_theme/callback.php');
+define('CONSUMER_KEY', 'consumer_key'); 
+define('CONSUMER_SECRET', 'consumer_secret_key');
+define('OAUTH_CALLBACK', 'callback_url');
 
 if (!isset($_SESSION['access_token'])) {
     $connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET);
